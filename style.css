@@ -1,0 +1,43 @@
+h1{
+   
+    font-size: 50px;
+   
+}
+body{
+    text-align: center;
+}
+div{
+ 
+height: 100px;
+width: 100px;
+display: inline-block;
+    
+}
+#flex{
+
+    height: 200px;
+    width: 800px;
+    border: 1px double black;
+    display: flex;
+
+}
+#box1{
+    background-color: rgb(105, 20, 20);
+
+}
+#box2{
+    background-color:rgb(148, 142, 28);
+
+}
+#box3{
+    background-color: rgb(29, 110, 181);
+
+}
+#box4{
+    background-color: rgb(56, 165, 42);
+
+}
+#box5{
+    background-color: rgb(187, 37, 174);
+
+}
