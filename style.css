@@ -11,7 +11,7 @@ div{
 height: 100px;
 width: 100px;
 display: inline-block;
-flex-direction: column;
+flex-direction: column-reverse;
     
 }
 #flex{
