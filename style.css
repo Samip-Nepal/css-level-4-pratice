@@ -8,23 +8,19 @@ body{
 }
 div{
  
-height: 100px;
-width: 100px;
+height: 50px;
+width: 200px;
 display: inline-block;
 flex-direction: row;
-justify-content: flex-end;
-/* justify-content: flex-start;
+flex-wrap: wrap;
 justify-content: center;
-justify-content: space-around;
-flex-direction: column;
-justify-content: flex-end;
-justify-content: flex-start;
-justify-content: center;
-justify-content: space-around; */   
+align-items: center;
+align-content: flex-start;
+
 }
 #flex{
 
-    height: 200px;
+    height: 500px;
     width: 800px;
     border: 1px double black;
     display: flex;
@@ -36,6 +32,9 @@ justify-content: space-around; */
 }
 #box2{
     background-color:rgb(148, 142, 28);
+    height: 100px;
+    width: 50px;
+
 
 }
 #box3{
