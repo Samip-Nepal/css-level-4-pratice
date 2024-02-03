@@ -8,8 +8,8 @@ body{
 }
 div{
  
-height: 50px;
-width: 200px;
+height: 100px;
+width: 50px;
 display: inline-block;
 flex-direction: row;
 /* flex-wrap: wrap; */
@@ -45,10 +45,11 @@ align-items: center;
 }
 #box4{
     background-color: rgb(56, 165, 42);
+    flex-grow:2 ;
 
 }
 #box5{
     background-color: rgb(187, 37, 174);
-   
+   flex-grow: 0.5;
 
 }
