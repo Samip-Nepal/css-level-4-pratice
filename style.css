@@ -5,12 +5,12 @@ background-color: blue;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 .Inner{
     height: 100px;
     width: 100px;
     background-color: brown;
-    
 
 }
 

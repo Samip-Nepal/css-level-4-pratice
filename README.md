@@ -5,4 +5,4 @@ and in list item.
 now ,use flexbox to place them all spaced equally in single line.
 2)use flexbox to center one div inside another div.
 which has higher priority -align items or align self.
-
+align self because align item is based in container and self is indiviual align
