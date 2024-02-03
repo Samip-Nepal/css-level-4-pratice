@@ -1,18 +1,16 @@
-
-#Container{
-    background-color: aqua;
-    display: flex;
-justify-content: space-evenly;
+.Outer{
+height: 400px;
+width: 400px;
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
 }
-a{
-    color: black;
-    text-decoration: none;
-   
-
-} 
-li{
-    list-style-type: none;
-    display: inline;
+.Inner{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    
 
 }
 
