@@ -1,16 +1,11 @@
-.Outer{
-height: 400px;
-width: 400px;
-background-color: blue;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-.Inner{
+div{
     height: 100px;
     width: 100px;
     background-color: brown;
-
+}
+@media(width:500px){
+    div{
+        background-color: blue;
+    }
 }
 
