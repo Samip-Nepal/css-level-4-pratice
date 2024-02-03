@@ -15,7 +15,7 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-align-content: flex-start;
+/* align-content: flex-start; */
 
 }
 #flex{
@@ -28,12 +28,13 @@ align-content: flex-start;
 }
 #box1{
     background-color: rgb(105, 20, 20);
+   
 
 }
 #box2{
     background-color:rgb(148, 142, 28);
-    height: 100px;
-    width: 50px;
+    align-self: flex-end;
+   
 
 
 }
@@ -47,5 +48,6 @@ align-content: flex-start;
 }
 #box5{
     background-color: rgb(187, 37, 174);
+    align-self: flex-start;
 
 }
