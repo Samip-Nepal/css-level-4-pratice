@@ -1,27 +1,25 @@
 div{
-    height: 100px;
-    width: 100px;
-    background-color: brown;
+    height: 200px;
+    width: 200px;
+    background-color:black ;
 }
-@media(min-width:200px) and (max-width:400px){
+ @media(max-width:300px){
     div{
-        background-color: aqua;
+        background-color: green;
     }
-} 
-@media(width:500px){
+}
+@media(max-width:300px)and(min-width:400px){
+    div{
+        background-color:pink;
+    }
+}
+@media(max-width:400px)and (min-width:600px){
+    div{
+        background-color: red;
+    }
+}
+@media(max-width:600px){
     div{
         background-color: blue;
     }
 } 
- @media(min-width:500px){
-    div{
-         background-color: red;
-       /* More than 500px */
-    }  
-} 
- /* @media(max-width:500px){
-    div{
-        background-color:green;
-        /* less than 500px */
-    /* } */
-/* }  */
