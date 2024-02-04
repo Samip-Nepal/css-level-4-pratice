@@ -3,21 +3,25 @@ div{
     width: 100px;
     background-color: brown;
 }
+@media(min-width:200px) and (max-width:400px){
+    div{
+        background-color: aqua;
+    }
+} 
 @media(width:500px){
     div{
         background-color: blue;
     }
-}
-@media(min-width:500px){
+} 
+ @media(min-width:500px){
     div{
          background-color: red;
        /* More than 500px */
-    }
-}
-/* @media(max-width:500px){
+    }  
+} 
+ /* @media(max-width:500px){
     div{
-        background-color: red;
-        less than 500px
-    }
-} */
-
+        background-color:green;
+        /* less than 500px */
+    /* } */
+/* }  */
