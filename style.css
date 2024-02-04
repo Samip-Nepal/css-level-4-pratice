@@ -8,4 +8,16 @@ div{
         background-color: blue;
     }
 }
+@media(min-width:500px){
+    div{
+         background-color: red;
+       /* More than 500px */
+    }
+}
+/* @media(max-width:500px){
+    div{
+        background-color: red;
+        less than 500px
+    }
+} */
 
