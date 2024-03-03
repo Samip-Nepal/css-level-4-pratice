@@ -26,16 +26,19 @@
 /* css grid */
 .container{
 background-color: red;
-height: 700px;
+height: 600px;
 width: 700px;
 display: grid;
-grid-template-columns:140px 140px 140px;
- grid-template-rows: 140px 140px 140px; 
-
+/* grid-template-columns:140px 140px 140px;
+ grid-template-rows: 140px 140px 140px;  */
+ grid-template-columns:repeat(3,1fr);
+ grid-template-rows: repeat(3,1fr);
+column-gap:15px ;
+row-gap: 15px;
 }
 .items{
 background-color:blue ;
-height:100px ;
-width:130px ;
+/* height:100px ;
+width:130px ; */
 }
 
