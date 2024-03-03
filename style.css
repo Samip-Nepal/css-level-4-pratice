@@ -30,6 +30,8 @@ height: 700px;
 width: 700px;
 display: grid;
 grid-template-columns:140px 140px 140px;
+ grid-template-rows: 140px 140px 140px; 
+
 }
 .items{
 background-color:blue ;
