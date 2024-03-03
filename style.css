@@ -1,4 +1,4 @@
-div{
+/* div{
     height: 200px;
     width: 200px;
     background-color:black ;
@@ -22,4 +22,18 @@ div{
     div{
         background-color: blue;
     }
-} 
+}   */
+/* css grid */
+.container{
+background-color: red;
+height: 700px;
+width: 700px;
+display: grid;
+grid-template-columns:140px 140px 140px;
+}
+.items{
+background-color:blue ;
+height:100px ;
+width:130px ;
+}
+
